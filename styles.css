@@ -1,0 +1,280 @@
+body {
+    text-align: center;
+    width: 1205px;
+    margin: auto;
+    padding: 0px;
+    background-color: white;
+    margin-top:100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    background-color: orangered;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+  }
+
+.list20 {
+    color: orangered;
+    font-size: 18px;
+}
+
+.darker {
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.darker:hover {
+    background-color: lightgray;
+}
+
+.darker2 {
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.darker2:hover {
+    background-color: lightgray;
+}
+
+.hide {
+    display: none;
+}
+
+.list20:hover {
+    color: black;
+    font-size: 18px;
+}
+
+.style {
+    font-size: 18px;
+    color: orangered;
+    font-weight: bold;
+    margin: 0px 5px 0px 5px;
+}
+
+.current2 {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin: 0px 5px 0px 5px;
+}
+
+.style:hover {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin: 0px 5px 0px 5px;
+}
+
+.current2:hover {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin: 0px 5px 0px 5px;
+}
+
+hr {
+    padding: 0px
+}
+
+ul {
+    text-align: left;
+}
+/* button graphics */
+
+.current {
+    background-color: white;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid #FF4C00;
+    height: 70px;
+    margin: 3px;
+    padding: 3px;
+}
+
+button {
+    background-color: white;
+    border: 3px solid white;
+    height: 70px;
+    margin: 3px;
+    padding: 3px;
+}
+
+button:active {
+    background-color: white;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid #FF4C00;
+    height: 70px;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+button:hover {
+    background-color: white;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid #FF4C00;
+    height: 70px;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+button:visited {
+    border: 3px solid white;
+}
+
+td {
+    text-align: center;
+    padding: 13px 0px 13px 0px;
+    font-size: 14px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid lightgray;
+}
+
+.part1 {
+    background-color: rgba(4,30,65,.9);
+    padding: 15px 10px 10px 10px;
+    margin: 0px;
+
+}
+
+.part2 {
+    background-color: white;
+    padding: 10px
+}
+
+ul {
+    list-style: none;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 20px 8px 20px 8px;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+
+.not {
+    text-decoration: none;
+}
+
+.L5G {
+    font-variant: small-caps;
+    text-align: left;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+.inline {
+    height: 55px;
+}
+
+.button {
+    border: 1px solid lightgray;
+    padding: 12px 32px 12px 32px;
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline;
+    height: 48px;
+    margin: 0px;
+}
+
+.button:hover {
+    border: 1px solid lightgray;
+    padding: 12px 32px 12px 32px;
+    background-color: lightgray;
+    vertical-align: middle;
+    font-size: 14px;
+    height: 48px;
+    margin: 0px;
+}
+
+.button:active {
+    border: 1px solid lightgray;
+    padding: 12px 32px 12px 32px;
+    background-color: lightgray;
+    vertical-align: middle;
+    font-size: 14px;
+    height: 48px;
+    margin: 0px;
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+ text-align: left;
+ height: 48px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid lightgrey;
+  min-width: 160px;
+  padding: 0px 0px;
+  z-index: 1;
+  margin: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ .dropdown2 {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid lightgrey;
+  min-width: 160px;
+  padding: 0px 0px;
+  z-index: 1;
+  margin: 0px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+#outer {
+    width:100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
+
